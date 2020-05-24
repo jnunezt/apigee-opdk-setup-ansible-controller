@@ -65,10 +65,10 @@ clean_folders:
 #private_key_file: ~/.ssh/id_rsa
 
 # Use this endpoint to clone github.com using HTTPS
-repository_secure_endpoint_https: "https://github.com/carlosfrias"
+repository_secure_endpoint_https: "https://github.com/chronos085"
 
 # Use this endpoint to clone github.com using SSH
-repository_secure_endpoint_ssh: "git@github.com:carlosfrias"
+repository_secure_endpoint_ssh: "git@github.com:chronos085"
 
 # Default to cloning github.com using HTTPS
 checkout_type: https
