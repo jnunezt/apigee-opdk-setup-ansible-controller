@@ -16,12 +16,12 @@
     state: present
   when: ansible_os_family == 'Debian'
 
-- name: Clean all folders
-  tags: ['clean']
-  file:
-    path: "{{ item }}"
-    state: absent
-  with_items: "{{ clean_folders }}"
+#- name: Clean all folders
+#  tags: ['clean']
+#  file:
+#    path: "{{ item }}"
+#    state: absent
+#  with_items: "{{ clean_folders }}"
 
 - name: Recreate folders
   tags: ['folders']
